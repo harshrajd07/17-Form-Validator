@@ -1,0 +1,22 @@
+public class Profitandloss{
+ public static void main(String args[]){
+ int cp = Integer.parseInt(args[0]);
+ int sp = Integer.parseInt(args[1]);
+ if (sp>cp){
+     int profit = sp-cp;
+     double profitpercentage = ((double)profit/cp)*100;
+     System.out.println("Profit: "+profit);
+     System.out.println("Profit Percentage: "+profitpercentage);
+ }
+ else if(cp>sp){
+     int loss = cp-sp;
+     double losspercentage = ((double)loss/cp)*100;
+     System.out.println("Loss: "+loss);
+     System.out.println("Losspercetage: "+losspercentage);
+ }
+ else if(sp==cp){
+	System.out.println("No Profit No Loss: ");
+ }
+ 
+ }
+}
