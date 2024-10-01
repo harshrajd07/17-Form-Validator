@@ -1,0 +1,15 @@
+public class Cycleprofit  
+{
+	public static void main(String[] args) 
+	{
+	    int oldcyclecostprice = 1200;
+		int repair = 250;
+		int coloring = 350;
+		int newaccessories = 500;
+		int totalcost = oldcyclecostprice + repair + coloring + newaccessories;
+		int profit = 1500;
+		int sellingprice = profit + totalcost;
+		System.out.println("totalcost : "+totalcost);
+        System.out.println("Sellingprice : "+sellingprice);
+	}
+}
